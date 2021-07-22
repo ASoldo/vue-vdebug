@@ -7,8 +7,10 @@ How to use?
 
 In main.js 
 
+```
 import vdebug from 'vue-vdebug'
 Vue.use(vdebug)
+```
 
 
 Templates:
