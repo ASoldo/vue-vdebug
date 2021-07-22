@@ -14,7 +14,7 @@ export default {
 						break;
 
 					default:
-						console.log("Please use one of the following: color, ...");
+						console.log("Please use one of the following: color, bgcolor!");
 						break;
 				}
 			}
