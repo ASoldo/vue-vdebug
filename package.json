@@ -1,0 +1,26 @@
+{
+  "name": "vue-vdebug",
+  "version": "0.0.1",
+  "description": "vue vdebug plugin for previewing HTML elements",
+  "main": "vdebug.js",
+  "bin": "vdebug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASoldo/vue-vdebug.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vdebug",
+    "debug"
+  ],
+  "author": "Andrej Soldo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ASoldo/vue-vdebug/issues"
+  },
+  "homepage": "https://github.com/ASoldo/vue-vdebug#readme"
+}
