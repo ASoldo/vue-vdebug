@@ -1,4 +1,6 @@
 # vue-vdebug
+![alt text](https://i.imgur.com/9mldyfF.png)
+
 Vue V-Debug plugin for previewing HTML elements
 
 How to use?
