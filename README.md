@@ -1,4 +1,17 @@
 # vue-vdebug
+
+<p align="center">
+    <img src="https://i.imgur.com/WR5R871.png">
+    
+</p>
+
+<p align="center">
+    Vue-V-Debug
+    
+</p>
+
+
+
 ![alt text](https://i.imgur.com/9mldyfF.png)
 
 Vue V-Debug plugin for previewing HTML elements
