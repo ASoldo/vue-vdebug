@@ -1,7 +1,7 @@
 # vue-vdebug
 
 <p align="center">
-    <img src="https://i.imgur.com/WR5R871.png">
+    <img src="https://i.imgur.com/yOVvbrS.png">
     
 </p>
 
