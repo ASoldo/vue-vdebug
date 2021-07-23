@@ -12,6 +12,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/npm/l/vue-vdebug">
+    <img src="https://img.shields.io/twitter/follow/RootsterAnon?style=social">
 </p>
 
 <p align="center">
