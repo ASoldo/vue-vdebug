@@ -1,8 +1,4 @@
 <p align="center">
-    npm i vue-vdebug
-</p>
-
-<p align="center">
     <img src="https://i.imgur.com/u4oBt0J.png">
 </p>
 
@@ -11,6 +7,7 @@
 </p>
 
 <p align="center">
+    <img src="https://img.shields.io/badge/npm%20i-vue--vdebug-green">
     <img src="https://img.shields.io/npm/l/vue-vdebug">
     <img src="https://img.shields.io/twitter/follow/RootsterAnon?style=social">
 </p>
