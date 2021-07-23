@@ -3,6 +3,12 @@ export default {
 		Vue.directive("debug", {
 			inserted: function (el, binding) {
 				switch (binding.arg) {
+
+					case 'wire':
+						el.style.border = `1px dotted limegreen`;
+						el.style.boxSizing = `border-box`;
+						break;
+
 					case 'color':
 						if (binding.value) {
 							el.style.borderColor = `${binding.value}`;
@@ -22,7 +28,6 @@ export default {
 					case 'size':
 						if (binding.value) {
 							el.style.borderWidth = `${binding.value}`;
-							el.style.boxSizing = `border-box`;
 							return;
 						}
 						console.warn("Please use: 1px 1px as an example...");
@@ -36,12 +41,11 @@ export default {
 						console.warn("Please use: solid, dotted, dashed...");
 						break;
 
-					case 'wire': el.style.border = `1px dotted limegreen`;
-						break;
 
 					default:
 						console.error("Please use one of the following: default, color, bgcolor, width, style!");
 						break;
+						
 				}
 			}
 		})
