@@ -1,6 +1,6 @@
 {
   "name": "vue-vdebug",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "vue vdebug plugin for previewing HTML elements",
   "main": "vdebug.js",
   "bin": "vdebug.js",
