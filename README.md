@@ -14,6 +14,10 @@
     <img src="https://img.shields.io/npm/l/vue-vdebug">
 </p>
 
+<p align="center">
+    <img src="https://i.imgur.com/9mldyfF.png">
+</p>
+
 Vue V-Debug plugin for wireframing HTML elements.
 
 # How to use?
@@ -24,7 +28,6 @@ In main.js
 import vdebug from 'vue-vdebug'
 Vue.use(vdebug)
 ```
-
 
 # Templates:
 
