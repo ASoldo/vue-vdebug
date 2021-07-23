@@ -43,6 +43,6 @@ Anywhere in your templates you can put v-debug:color="'red'" and/or v-debug:bgco
 
 # Use case:
 
-* -Wireframing
-* -Responsivness preview
-* -Grid/layout preview
+* Wireframing
+* Responsivness preview
+* Grid/layout preview
