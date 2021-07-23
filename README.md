@@ -30,16 +30,32 @@ Vue.use(vdebug)
 # Templates:
 
 ```html
-<p v-debug:color="'red'">Red</p> ,
-<p v-debug:bgcolor="'#0000ff'">Blue</p> , 
-<p v-debug:color="'red'" v-debug:bgcolor="'blue'">Mix</p>
+<p v-debug:wire>Default border 1px dotted limegreen</p> 
+<!-- Configuration options for wireframe -->
+  <p v-debug:color="'red'">Red border color</p> , 
+  <p v-debug:style="'dotted'">Dotted Border</p> , 
+  <p v-debug:size="'1px 1px'">Size 1px 1px</p>
+<!-- -->
 
-<Component v-debug:color="'red'" /> , 
-<Component v-debug:bgcolor="'#0000ff'" /> , 
-<Component v-debug:color="'red'" v-debug:bgcolor="'blue'" />
+<!-- Set background color -->
+<p v-debug:bgcolor="'#0000ff'">Blue background color</p>
+<!--  -->
+
+<Component v-debug:wire /> 
+<!-- Configuration options for wireframe -->
+  <Component v-debug:color="'red'" /> 
+  <Component v-debug:style="'dotted'" /> 
+  <Component v-debug:size="'1px 1px'" /> 
+<!--  -->
+
+<!-- Set background color -->
+<Component v-debug:bgcolor="'#000ff'" /> 
+<!--  -->
 ```
 
-Anywhere in your templates you can put v-debug:color="'red'" and/or v-debug:bgcolor="'#000ff'" and preview wireframed element for debuging purposes.
+Anywhere in your templates you can put v-debug:wire and preview wireframed element for debuging purposes.
+Add color, style, size to wireframe for desired effects and needs.
+Set background color for element alone or combine it with wireframe.
 
 # Use case:
 

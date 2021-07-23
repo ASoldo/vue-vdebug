@@ -4,17 +4,43 @@ export default {
 			inserted: function (el, binding) {
 				switch (binding.arg) {
 					case 'color':
-						el.style.border = `5px solid ${binding.value}`;
-						el.style.borderStyle = `dotted`;
-						el.style.boxSizing = `border-box`;
+						if (binding.value) {
+							el.style.borderColor = `${binding.value}`;
+							return;
+						}
+						console.warn("Please use: 'red' or '#0000ff' as an example...");
 						break;
 
-					case 'bgcolor': 
-						el.style.backgroundColor = `${binding.value}`;
+					case 'bgcolor':
+						if (binding.value) {
+							el.style.backgroundColor = `${binding.value}`;
+							return;
+						}
+						console.warn("Please use: 'red' or '#0000ff' as an example...");
+						break;
+
+					case 'size':
+						if (binding.value) {
+							el.style.borderWidth = `${binding.value}`;
+							el.style.boxSizing = `border-box`;
+							return;
+						}
+						console.warn("Please use: 1px 1px as an example...");
+						break;
+
+					case 'style':
+						if (binding.value) {
+							el.style.borderStyle = `${binding.value}`;
+							return;
+						}
+						console.warn("Please use: solid, dotted, dashed...");
+						break;
+
+					case 'wire': el.style.border = `1px dotted limegreen`;
 						break;
 
 					default:
-						console.log("Please use one of the following: color, bgcolor!");
+						console.error("Please use one of the following: default, color, bgcolor, width, style!");
 						break;
 				}
 			}
