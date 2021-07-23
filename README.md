@@ -24,14 +24,14 @@ Vue V-Debug plugin for wireframing HTML elements.
 
 In main.js 
 
-```
+```javascript
 import vdebug from 'vue-vdebug'
 Vue.use(vdebug)
 ```
 
 # Templates:
 
-```
+```html
 <p v-debug:color="'red'">Red</p> ,
 <p v-debug:bgcolor="'#0000ff'">Blue</p> , 
 <p v-debug:color="'red'" v-debug:bgcolor="'blue'">Mix</p>
