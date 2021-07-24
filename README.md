@@ -32,9 +32,9 @@ Vue.use(vdebug)
 ```html
 <p v-debug:wire>Default border 1px dotted limegreen</p> 
 <!-- Configuration options for wireframe -->
-  <p v-debug:color="'red'">Red border color</p> , 
-  <p v-debug:style="'dotted'">Dotted Border</p> , 
-  <p v-debug:size="'1px 1px'">Size 1px 1px</p>
+  <p v-debug:wire v-debug:color="'red'">Red border color</p> , 
+  <p v-debug:wire v-debug:style="'dotted'">Dotted Border</p> , 
+  <p v-debug:wire v-debug:size="'1px 1px'">Size 1px 1px</p>
 <!-- -->
 
 <!-- Set background color -->
@@ -43,9 +43,9 @@ Vue.use(vdebug)
 
 <Component v-debug:wire /> 
 <!-- Configuration options for wireframe -->
-  <Component v-debug:color="'red'" /> 
-  <Component v-debug:style="'dotted'" /> 
-  <Component v-debug:size="'1px 1px'" /> 
+  <Component v-debug:wire v-debug:color="'red'" /> 
+  <Component v-debug:wire v-debug:style="'dotted'" /> 
+  <Component v-debug:wire v-debug:size="'1px 1px'" /> 
 <!--  -->
 
 <!-- Set background color -->
