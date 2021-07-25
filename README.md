@@ -71,5 +71,5 @@ Just press 'CTRL/CMD' + P and type '>VSC VDebug Clean' or '>VDebug Clean' or '>C
 
 Note: this is a demo for now. Manual formatting may be required (prettier, format document...).
 
-# Contributers are welcome ❤️❤️❤️: 
+# Contributors are welcome ❤️❤️❤️! 
 git -> https://github.com/ASoldo/vsc-vdebug
