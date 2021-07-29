@@ -69,5 +69,9 @@ Set background color for element alone or combine it with wireframe.
 You can downlaod 'vsc-vdebug' from Extensions Tab and quickly remove all v-debug directives.
 Just press 'CTRL/CMD' + P and type '>VSC VDebug Clean' or '>VDebug Clean' or '>Clean'
 
+# Notice:
+VSC-VDebug will clean your code by following 'Left Side' rule. 
+It's the best practice to group your v-debug directives at the end of the tag.
+
 # Contributors are welcome ❤️❤️❤️! 
 git -> https://github.com/ASoldo/vsc-vdebug
