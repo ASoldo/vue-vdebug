@@ -64,12 +64,10 @@ Set background color for element alone or combine it with wireframe.
 * Grid/layout preview
 
 
-# Visual Studio Code Extension Beta
+# Visual Studio Code Extension
 
 You can downlaod 'vsc-vdebug' from Extensions Tab and quickly remove all v-debug directives.
 Just press 'CTRL/CMD' + P and type '>VSC VDebug Clean' or '>VDebug Clean' or '>Clean'
-
-Note: this is a demo for now. Manual formatting may be required (prettier, format document...).
 
 # Contributors are welcome ❤️❤️❤️! 
 git -> https://github.com/ASoldo/vsc-vdebug
